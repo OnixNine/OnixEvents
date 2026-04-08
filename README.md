@@ -6,6 +6,10 @@ repositories {
     mavenCentral()
     maven { url 'https://jitpack.io' }
 }
+
+dependencies {
+    implementation("com.github.OnixNine:OnixEvents:гитхеш")
+}
 `
 # 2
 Создаем любой евент
